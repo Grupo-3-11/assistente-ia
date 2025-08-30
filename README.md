@@ -1,22 +1,50 @@
-# 🤖 Assistente de IA
+# 🤖 Assistente de IA – Desafio Grupo Boticário + Koru
 
-Projeto colaborativo de uma aplicação web que permite ao usuário fazer perguntas e receber respostas da API da OpenAI, utilizando apenas **HTML**, **CSS** e **JavaScript puro**.
+Este projeto foi desenvolvido como parte de um desafio de tarefas do Curso de Desenvolvimento de Software, uma iniciativa do **Grupo Boticário** em parceria com a plataforma **Koru**.
+
+O objetivo central foi criar um assistente de Inteligência Artificial simples, explorando integração com APIs de IA já conhecidas no mercado, além de praticar habilidades de programação em equipe, organização e versionamento de código.
 
 ---
 
-## 🎯 Objetivo
-Criar uma aplicação web funcional e responsiva onde o usuário:
-- Insere sua API Key
-- Digita uma pergunta
-- Recebe uma resposta formatada da OpenAI
+## 📌 Sobre o Desafio
+
+O desafio consistiu em desenvolver um protótipo funcional de assistente de IA com foco em:
+
+- Testar integrações com APIs de IA (ex.: Gemini, GPT, etc.)
+
+- Permitir interação básica entre usuário e assistente
+
+- Implementar pequenas funções auxiliares como copiar texto, limpar texto e formatações simples
+
+Cada integrante do grupo ficou responsável por implementar partes específicas do sistema, promovendo aprendizado prático em colaboração.
 
 ---
 
 ## 🧠 Funcionalidades
-- Interface simples e semântica
-- Estilos responsivos e feedback visual (loading, erro)
-- Integração com a API da OpenAI via `fetch()`
-- Organização modular por arquivos: `index.html`, `style.css`, `script.js`
+
+- ✅ Interface semântica e simples
+
+- ✅ Design responsivo e amigável
+
+- ✅ Feedback visual (carregando, erro, resposta formatada)
+
+- ✅ Integração com a APIs via fetch
+
+- ✅ Organização modular do código (HTML, CSS e JS separados)
+
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+- HTML5
+
+- CSS3
+
+- JavaScript (ES6+)
+
+- Integração com APIs de IA (Gemini, GPT, etc.)
+
+- Git & GitHub
 
 ---
 
