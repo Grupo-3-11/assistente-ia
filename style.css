@@ -1,5 +1,5 @@
 :root {
-    --primary-color: #ff5f5f; /* Cor vermelha para o cabeçalho e botão */
+    --primary-color: #ff5f5f;
     --secondary-color: #a0a0a0;
     --background-color: #333;
     --card-background: #1e1e1e;
@@ -39,7 +39,7 @@ h1, h2 {
     margin-top: 20px;
     display: flex;
     flex-direction: column;
-    gap: 20px; /* Adiciona espaçamento entre os inputs */
+    gap: 20px;
 }
 
 .input-group {
@@ -101,6 +101,30 @@ button:hover {
     min-height: 100px;
     color: var(--text-color);
 }
+
+.response-actions {
+    margin-top: 10px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+  }
+  
+  .response-actions button {
+    flex: 1;
+    padding: 10px;
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 16px;
+  }
+  
+  .response-actions button:hover {
+    background-color: #e04444;
+  }
+  
 
 .hidden {
     display: none;
