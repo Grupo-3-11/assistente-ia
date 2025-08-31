@@ -1,0 +1,19 @@
+# Node.js
+node_modules/
+.env
+
+# Logs
+*.log
+npm-debug.log*
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+
+# Build temporário
+dist/
+build/

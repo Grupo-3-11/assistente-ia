@@ -1,0 +1,27 @@
+{
+  "name": "assistente-ia",
+  "version": "1.0.0",
+  "description": "Este projeto foi desenvolvido como parte de um desafio de tarefas do Curso de Desenvolvimento de Software, uma iniciativa do **Grupo Boticário** em parceria com a plataforma **Koru**.",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Grupo-3-11/assistente-ia.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Grupo-3-11/assistente-ia/issues"
+  },
+  "homepage": "https://github.com/Grupo-3-11/assistente-ia#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "node-fetch": "^3.3.2"
+  }
+}
