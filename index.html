@@ -6,46 +6,48 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="style/style.css" />
   <link rel="shortcut icon" href="chat_icon.ico" type="image/x-icon">
-  <title>Assistente IA</title>
+  <title>HaruBot</title>
 </head>
 
 <body>
   <main class="container">
-    <h1>Assistente de IA</h1>
-
-    <section class="form-container">
-      <div class="input-group">
-        <label for="modelo">Modelo da IA:</label>
+    <!-- Header -->
+    <div class="header-top">
+      <!-- Botão de seleção de IA -->
+      <div class="ia-select">
         <select id="modelo">
-          <option value="">Selecione</option>
+          <option value="">IA</option>
           <option value="openai">GPT-3.5 Turbo</option>
           <option value="gemini-pro">Gemini Pro</option>
           <option value="gemini-flash">Gemini Flash</option>
         </select>
       </div>
 
-      <div class="input-group">
-        <label for="question">Sua pergunta:</label>
-        <textarea id="question" placeholder="Digite sua pergunta..." rows="4"></textarea>
-      </div>
+      <h1>Bem-vindo(a) ao <span class="neon">HaruBot</span></h1>
+    </div>
 
-      <button id="submitBtn">Perguntar</button>
+    <!-- Área de input -->
+    <section class="form-container">
+      <div class="chat-input">
+        <textarea id="question" placeholder="Enviar mensagem..." rows="2"></textarea>
+        <button id="submitBtn" title="Enviar">➤</button>
+      </div>
     </section>
 
+    <!-- Resposta -->
     <section class="response-container">
       <h2>Resposta:</h2>
       <div id="response" class="response-box"></div>
-    
+
       <!-- Botões extras -->
       <div class="response-actions">
-        <button id="copyBtn">📋 Copiar</button>
-        <button id="clearBtn">🗑️ Limpar</button>
-      </div>
-    
+        <button id="copyBtn" title="Copiar">Copiar</button>
+        <button id="clearBtn" title="Limpar">Limpar</button>
+      </div>           
+      
       <div id="loading" class="loading-indicator hidden">Carregando...</div>
       <div id="error" class="error-message hidden"></div>
     </section>
-    
   </main>
 
   <script src="js/script.js"></script>
