@@ -1,4 +1,4 @@
-# 🤖 Assistente de IA – Desafio Grupo Boticário + Koru
+# 🤖 HaruBot – Desafio Grupo Boticário + Koru
 
 Este projeto foi desenvolvido como parte de um desafio de tarefas do Curso de Desenvolvimento de Software, uma iniciativa do **Grupo Boticário** em parceria com a plataforma **Koru**.
 
